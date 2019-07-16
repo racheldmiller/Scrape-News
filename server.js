@@ -13,3 +13,8 @@ var db = require("./models");
 
 // Initialize Express
 var app = express();
+
+// Start the server
+app.listen(PORT, function() {
+  console.log("App running on port " + PORT + "!");
+});
