@@ -1,6 +1,3 @@
-// INVESTIGATE: TUTOR RECOMMENDS USING POSTMAN TO SEE IF ROUTES ARE FUNCTIONING
-// check it out: getpostman.com
-
 // ---------- DEPENDENCIES ----------
 // From Mongoose documentation:
 //      * Everything in Mongoose starts with a Schema. E
