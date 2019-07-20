@@ -1,7 +1,7 @@
 // ---------- DEPENDENCIES ----------
 var mongoose = require("mongoose");
 
-// Reference Schema from Article.js
+// REFERENCE SCHEMA CREATED IN ARTICLE.JS
 var Schema = mongoose.Schema;
 
 // ---------- NEW SCHEMA FOR COMMENTS ----------
