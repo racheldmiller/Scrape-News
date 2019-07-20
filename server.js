@@ -26,7 +26,10 @@ app.use(
 var exphbs = require("express-handlebars");
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 
-// create mongoose database connection
+// -- CREATE MONGOOSE DATABASE CONNECTION --
+// Courtesy of StackOverflow:
+//    >> add :27017 to localhost
+//    >> pass { useNewUrlParser: true } to connect properly
 mongoose.connect("mongodb://localhost:27017/scrape-news", {
   useNewUrlParser: true
 });
