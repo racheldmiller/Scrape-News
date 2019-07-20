@@ -1,0 +1,22 @@
+{{!-- (I THINK) INDEX.HANDLEBARS IS THE LANDING PAGE? --}}
+
+<div>
+    <h1>Latest News from Cracked</h1>
+    <div>
+        <h3>Click on the "Scrape" button to fetch the articles.</h3>
+        {{!-- Have a button where they can click for the articles --}}
+    </div>
+</div>
+
+{{!-- All of the articles will then appear here --}}
+<div>
+    {{!-- I'll need columns and rows for the articles --}}
+    {{!-- Will need #each --}}
+    <div>{{#each articles}}
+        <div>
+            <h4>{{{this.title}}}</h4>
+            {{!-- need route to read article--}}
+        </div>
+        {{/each}}
+    </div>
+</div>
